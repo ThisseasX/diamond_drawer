@@ -21,8 +21,7 @@ public class Mirrored {
         MirrorLooper.loop(
                 length,
                 1,
-                i -> drawLine(length, i),
-                null
+                i -> drawLine(length, i)
         );
     }
 }
